@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 450px;
+    min-width: 375px;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: burlywood;
+}
+h1{
+    font-size: 2rem;
+    color: blue;
+}
+.counter{
+    color: red;
+}
+.btn{
+    width: 100%;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.increment{
+    background-color: cyan;
+    color: blue;
+}
+.increment:active{
+    background-color: blue;
+    color: cyan;
+}
+.save{
+    background-color: green;
+    color: greenyellow;
+}
+.save:active{
+    background-color: greenyellow;
+    color: green;
+}
+p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: orangered;
+}
