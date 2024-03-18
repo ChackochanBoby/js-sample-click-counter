@@ -9,5 +9,5 @@ function increment() {
 let saveCount = document.getElementById("save-count")
 
 function save() {
-    saveCount.innerText += " " + count + " -"
+    saveCount.textContent +=count + " - "
 }
